@@ -1,0 +1,124 @@
+[data-anime] {
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+[data-anime="left"] {
+  -webkit-transform: translate3d(-60px, 0, 0);
+          transform: translate3d(-60px, 0, 0);
+}
+
+[data-anime="left"].animate {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+[data-anime="right"] {
+  -webkit-transform: translate3d(60px, 0, 0);
+          transform: translate3d(60px, 0, 0);
+}
+
+[data-anime="right"].animate {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+[data-anime="rotateLeft"] {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+[data-anime="rotateLeft"].animate {
+  opacity: 1;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+[data-anime="rotateRight"] {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+[data-anime="rotateRight"].animate {
+  opacity: 1;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+[data-anime="rotatey"] {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+[data-anime="rotatey"].animate {
+  opacity: 1;
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+
+[data-anime="rotatey90"] {
+  -webkit-transform: rotateY(90deg);
+          transform: rotateY(90deg);
+}
+
+[data-anime="rotatey90"].animate {
+  opacity: 1;
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+
+[data-anime="rotateys90"] {
+  -webkit-transform: rotateY(-90deg);
+          transform: rotateY(-90deg);
+}
+
+[data-anime="rotateys90"].animate {
+  opacity: 1;
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+
+[data-anime="bubble"] {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+[data-anime="bubble"].animate {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.delay1 {
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+}
+
+.delay2 {
+  -webkit-transition-delay: 0.8s;
+          transition-delay: 0.8s;
+}
+
+.delay3 {
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+}
+
+.delay4 {
+  -webkit-transition-delay: 1.3s;
+          transition-delay: 1.3s;
+}
+
+.delay5 {
+  -webkit-transition-delay: 1.5s;
+          transition-delay: 1.5s;
+}
+
+.delay6 {
+  -webkit-transition-delay: 1.7s;
+          transition-delay: 1.7s;
+}
+/*# sourceMappingURL=scroll.css.map */

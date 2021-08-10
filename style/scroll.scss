@@ -1,0 +1,95 @@
+[data-anime] {
+  opacity: 0;
+  transition: 0.5s;
+}
+
+[data-anime="left"] {
+  transform: translate3d(-60px, 0, 0);
+}
+
+[data-anime="left"].animate {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+[data-anime="right"] {
+  transform: translate3d(60px, 0, 0);
+}
+
+[data-anime="right"].animate {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+[data-anime="rotateLeft"] {
+  transform: rotate(45deg);
+}
+
+[data-anime="rotateLeft"].animate {
+  opacity: 1;
+  transform: rotate(0deg);
+}
+
+[data-anime="rotateRight"] {
+  transform: rotate(-45deg);
+}
+
+[data-anime="rotateRight"].animate {
+  opacity: 1;
+  transform: rotate(0deg);
+}
+
+[data-anime="rotatey"] {
+  transform: rotateY(180deg);
+}
+
+[data-anime="rotatey"].animate {
+  opacity: 1;
+  transform: rotateY(0deg);
+}
+
+[data-anime="rotatey90"] {
+  transform: rotateY(90deg);
+}
+
+[data-anime="rotatey90"].animate {
+  opacity: 1;
+  transform: rotateY(0deg);
+}
+
+[data-anime="rotateys90"] {
+  transform: rotateY(-90deg);
+}
+
+[data-anime="rotateys90"].animate {
+  opacity: 1;
+  transform: rotateY(0deg);
+}
+
+[data-anime="bubble"] {
+  transform: scale(0);
+}
+
+[data-anime="bubble"].animate {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.delay1 {
+  transition-delay: 0.5s;
+}
+.delay2 {
+  transition-delay: 0.8s;
+}
+.delay3 {
+  transition-delay: 1s;
+}
+.delay4 {
+  transition-delay: 1.3s;
+}
+.delay5 {
+  transition-delay: 1.5s;
+}
+.delay6 {
+  transition-delay: 1.7s;
+}
